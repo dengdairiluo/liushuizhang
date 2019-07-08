@@ -16,7 +16,7 @@
   + 较为熟练使用工具类 Apache Commons，简单使用Guava，及其他常见组件。
 + 前端框架：JQuery入门，Echart入门，vue.js 简单使用。
 + 数据库： MySQL入门，Oracle简单使用，MongoDB简单使用
-+ 其他： git，diea，pycharm, sourceTree等。
++ 其他： git，diea，pycharm, sourceTree，简单python爬虫及pyhton数据分析等。
 
 # 工作经验
 
