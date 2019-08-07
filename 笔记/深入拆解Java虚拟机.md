@@ -108,3 +108,29 @@ java代码 编译成class文件加载到Java虚拟机中，加载后的Java会�
 
 ## JVM 是如何处理异常的
 
+捕获异常涉及三种代码块
+1. try
+2. catch
+3. finally
+
+### 异常的基本概念
+
+### Java虚拟机是如何捕获异常的
+
+### Java 7 的 Supressed 异常以及语法糖
+
+## 工具篇 | 常用工具介绍
+
+### javap：查阅 Java 字节码
+
+### OpenJDK 项目 Code Tools ：实用小工具集
+
+### ASM： Java字节码框架
+
+## JVM是如何实现反射的
+
+### 反射调用的实现
+
+### 反射调用的开销
+
+
