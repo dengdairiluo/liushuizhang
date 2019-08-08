@@ -132,4 +132,20 @@ java代码 编译成class文件加载到Java虚拟机中，加载后的Java会�
 
 ## 反射调用的开销
 
+# 08 | JVM是怎么实现invokedDynamic的？（上）
+
+## 方法句柄的概念
+
+## 方法句柄的操作
+
+## 方法句柄的实现
+
+# 09 | JVM是怎么实现invokedDynamic的？（下）
+
+## invokedynamic 指令
+
+## Java8 的 Lambda 表达式
+
+## Lambda 以及方法句柄的性能分析
+
 
