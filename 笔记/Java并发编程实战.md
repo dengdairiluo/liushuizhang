@@ -286,4 +286,77 @@ while循环里面调用wait()。这个是MESA管程特有的。
 
 重点是while里面的等待条件是完全相同的。
 
+# 9 |  Java 线程（上）：Java线程的生命周期
+
+**生命周期中各个节点的状态转换机制**
+
+## 通用的线程生命周期
+
+五态模型：初始状态、可运行状态、运行状态、休眠状态和终止状态。
+
+1. **初始状态**： 线程已经被创建，但是还不允许分配CPU执行。编程语言层面创建，操作系统层面没被创建
+2. **可运行状态**：线程可以分配CPU执行。操作系统线程已经被创建
+3. **运行状态**： 当有空闲CPU时，操作系统会将其分配给一个处于可运行状态的线程。
+4. 运行状态线程如果调用一个阻塞的API 或者等待某个时间，那么线程就会进入**休眠状态**。
+5. 线程执行完或出现异常就会进入**终止状态**。
+
+## Java中线程的生命周期
+
+1. NEW
+2. RUNNABLE
+3. BLOCKED
+4. WAITING
+5. TIMED_WAITING
+6. TERMINATED
+
+
+### 1. RUNNABLE 与 BLOCKED 的状态转换
+
+线程等待synchronized的隐式锁
+
+**JVM层面并不关心操作系统调度相关的状态**
+
+### 2. RUNNABLE 与 WAITING 的状态转换
+
+1. 获得synchronized的隐式锁的线程，调用无参的Object.wait()方法。
+2. 调用无参数的THREAD.join() 方法
+3. 调用LockSupport.park() 方法
+
+### 3. RUNNABLE 与 TIMED_WAITING 的状态转换
+
+1. 调用带参数的 Thread.sleep(long millis) 方法
+2. 获得synchronized的隐式锁，调用带超时参数的Object.wait(long timeout) 方法
+3. 调用带超时参数的 Thread.join(long millis) 方法
+4. 调用带超时参数的 LockSupport.pakNanos(Object blocker, long deadline) 方法
+5. 调用带超时参数的 LockSupport.parkUntil(long dealine)  方法
+
+4. 从 NEW 到 RUNNABLE 状态
+
+调用线程对象.start() 方法
+
+5. 从 RUNNABLE 到 TERMINATED 状态
+
+1. 执行完run() 方法
+
+stop()会真的杀死线程
+
+interrupt() 方法仅仅是通知线程。
+
+# 10 | Java线程（中）： 创建多少线程才是合适的？
+
+## 为什么要使用多线程？
+降低延迟，提高吞吐量
+## 多线程的应用场景
+
+提升硬件利用率， 提升I/O 的利用率 和 CPU  的利用率
+
+我们需要借据 CPU 和 I/O 设备综合利用率的问题。
+
+如果CPU 和 I/O 设备综合利用率很低可以通过增加线程来提高吞吐量
+
+## 创建多少线程合适？
+
+CPU 核数 + 1
+
+最佳线程数 = CPU 核数 * （1 + （I / O 耗时 / CPU 耗时）
 
