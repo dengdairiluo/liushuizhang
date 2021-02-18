@@ -18,3 +18,31 @@
 
 ### 1.4.1 虚拟机始祖：Sun Classic/Exact VM
 
+### 1.4.2 HotSpot VM
+
+### 1.4.3 Mobile/Embedded VM
+
+### 1.4.4 BEA JRockit/IBM J9 VM
+
+### 1.4.5 BEA Liquid VM/Azul VM
+
+### 1.4.6 Apache Harmony/Google Android Daivik VM
+
+### 1.4.7 Microsoft JVM
+
+### 1.4.8 其他
+
+## 1.5 展望Java技术的未来
+
+### 1.5.1 无语言倾向
+
+### 1.5.2 新一代即时编译器
+
+### 1.5.3 向 Native 迈进
+
+### 1.5.4 灵活的胖子
+
+### 1.5.5 语言语法持续增强
+
+## 1.6 实战：自己编译JDK
+
