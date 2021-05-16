@@ -118,6 +118,18 @@
 
 #### 2.8.4 一些标签示例
 
+1. @see
+2. @link
+3. @docRoot
+4. @inheritDoc
+5. @version
+6. @author
+7. @since
+8. @param
+9. @return
+10. @throws
+11. @deprecated
+
 #### 2.8.5 文档示例
 
 ### 2.9 编码风格
