@@ -835,7 +835,7 @@ Java 中除了 static 方法和 final 方法 (private 方法属于final方法)�
 ### 17.5 List 的功能方法
 
 ### 17.6 Set 和存储顺序
---
+
 #### 17.6.1 SortedSet
 
 ### 17.7 队列
@@ -853,6 +853,14 @@ Java 中除了 static 方法和 final 方法 (private 方法属于final方法)�
 #### 17.8.3 LinkedHashMap
 
 ### 17.9 散列与散列码
+
+正确的 equals() 方法必须满足下列5个条件：
+
+1. 自反性
+2. 对称性
+3. 传递性
+4. 一致性
+5. 对任何不是 null 的x. x.equals(null) 一定返回 false
 
 #### 17.9.1 理解 hashCode()
 
