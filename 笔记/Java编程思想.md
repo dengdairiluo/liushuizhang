@@ -1227,7 +1227,7 @@ Java 中除了 static 方法和 final 方法 (private 方法属于final方法)�
 ### 22.4 捕获事件
 
 ### 22.5 文本区域
---
+
 ### 22.6 控制布局
 
 #### 22.6.1 BorderLayout
@@ -1291,7 +1291,7 @@ Java 中除了 static 方法和 final 方法 (private 方法属于final方法)�
 #### 22.8.19 滑块与进度条
 
 #### 22.8.20 选择外观
-
+--
 #### 22.8.21 树、表格和剪贴板
 
 ### 22.9 JNLP 与 Java Web Start
