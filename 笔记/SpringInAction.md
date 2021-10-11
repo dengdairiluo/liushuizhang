@@ -74,3 +74,28 @@
 
 #### 3.1.2 使用JdbcTmplate
 
+#### 3.1.3 定义模式和预加载数据
+
+#### 3.1.4 插入数据
+
+### 3.2 使用 Spring Data JPA持久化数据
+
+#### 3.2.1 添加Spring Data JPA 到项目中
+
+#### 3.2.2 将领域对象标注为实体
+
+#### 3.2.3 声明 JPA repository
+
+#### 3.2.4 自定义JPA repository
+
+### 3.3 小结
+
+## 4 保护Spring
+
+### 4.1 启用Spring Security
+
+### 4.2 配置Spring Security
+
+#### 4.2.1 基于内存的用户存储
+
+#### 4.2.2 基于JDBC的用户存储
