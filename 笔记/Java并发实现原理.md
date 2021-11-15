@@ -71,3 +71,67 @@
 ### 1.7 内存屏障
 
 #### 1.7.1 Linux中的内存屏障
+
+#### 1.7.2 JDK中的内存屏障
+
+#### 1.7.3 volatile实现原理
+
+### 1.8 final关键字
+
+#### 1.8.1 构造函数溢出问题
+
+#### 1.8.2 final的happen-before语义
+
+#### 1.8.3 happen-before规则总结
+
+### 1.9 综合应用：无锁编程
+
+#### 1.9.1 一写一读的无锁队列：内存屏障
+
+#### 1.9.2 一写多读的无锁队列：volatile关键字
+
+#### 1.9.3 多谢多读的无锁队列：CAS
+
+#### 1.9.4 无锁栈
+
+#### 1.9.5 无锁链表
+
+## 2 Atomic类
+
+### 2.1 AtomicInteger 和 AtomicLong
+
+#### 2.1.1 悲观锁和乐观锁
+
+#### 2.1.2 Unsafe的CAS详解
+
+#### 2.1.3 自旋与阻塞
+
+### 2.2 AtomicBoolean和AtomicReference
+
+#### 2.2.1 为什么需要AtomicBoolean
+
+#### 2.2.2 如何支持boolean和double类型
+
+### 2.3 AtomicStamped Reference和AtomicMarkable Reference
+
+#### 2.3.1 ABA问题与解决办法
+
+#### 2.3.2 为什么没有AtomicStampedInteger或AtomicStampedLong
+
+#### 2.3.3 AtomicMarkableReference
+
+### 2.4 AtomicIntegerFieldUpdater、AtomicLongFieldUpdater和AtomicReferenceFieldUpdater
+
+#### 2.4.1 为什么需要AtomicXXXFieldUpdater
+
+#### 2.4.2 限制条件
+
+### 2.5 AtomicIntegerArray、AtomicLongArray和Atomic-ReferenceArray
+
+#### 2.5.1 使用方式
+
+#### 2.5.2 实现原理
+
+### 2.6 Striped64 与LongAdder
+
+#### 2.6.1 LongAdder原理
