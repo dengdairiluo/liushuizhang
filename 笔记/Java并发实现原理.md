@@ -212,4 +212,41 @@
 
 #### 4.2.1 CountDownLatch使用场景
 
-#### 4.4.2 await() 实现分析
+#### 4.2.2 await() 实现分析
+
+#### 4.2.3 countDown()视线分析
+
+### 4.3 CyclicBarrier
+
+#### 4.3.1 CyclicBarrier使用场景
+
+#### 4.3.2 CyclicBarrier实现原理
+
+### 4.4 Exchanger
+
+#### 4.4.1 使用场景
+
+#### 4.4.2 实现原理
+
+#### 4.4.3 exchange(V x) 视线分析
+
+### 4.5 Phaser 
+
+#### 4.5.1 用 Phaser替代CyclicBarrier和CountDownLatch
+
+#### 4.5.2 Phaser新特性
+
+#### 4.5.3 state变量解析
+
+#### 4.5.4 阻塞与唤醒(Treiber Stack)
+
+#### 4.5.5 arrive()函数分析
+
+#### 4.5.6 awaitAdvance()函数分析
+
+## 5 并发容器
+
+### 5.1 BlockingQueue
+
+#### 5.1.1 ArrayBlockingQueue
+ 
