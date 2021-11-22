@@ -249,4 +249,21 @@
 ### 5.1 BlockingQueue
 
 #### 5.1.1 ArrayBlockingQueue
- 
+
+#### 5.1.2 LinkedBlockingQueue
+
+#### 5.1.3 PriorityBlockingQueue
+
+#### 5.1.4 DelayQueue
+
+#### 5.1.5 SynchronousQueue
+
+### 5.2 BlockingDeque
+
+### 5.3 CopyOnWrite
+
+#### 5.3.1 CopyOnWriteArrayList
+
+#### 5.3.2 CopyOnWriteArraySet
+
+### 5.4 ConcurrentLinkedQueue/Dequeue
