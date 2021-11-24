@@ -230,7 +230,7 @@
 
 #### 4.4.3 exchange(V x) 视线分析
 
-### 4.5 Phaser 
+### 4.5 Phaser
 
 #### 4.5.1 用 Phaser替代CyclicBarrier和CountDownLatch
 
