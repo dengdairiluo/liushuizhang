@@ -267,3 +267,9 @@
 #### 5.3.2 CopyOnWriteArraySet
 
 ### 5.4 ConcurrentLinkedQueue/Dequeue
+
+### 5.5 ConcurrentHashMap
+
+#### 5.5.1 JDK 7中的实现方式
+
+#### 5.5.2 JDK 8中的实现方式
