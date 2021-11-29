@@ -317,3 +317,51 @@
 ### 7.1 ForkJoinPool的用法
 
 ### 7.2 核心数据结构
+
+### 7.3 工作窃取队列
+
+### 7.4 ForkjoinPool状态控制
+
+#### 7.4.1 状态变量ctl解析
+
+#### 7.4.2 阻塞栈-Treiber Stack
+
+#### 7.4.3 ctl变量的初始值
+
+#### 7.4.4 ForkJoinWorkThread状态与个数分析
+
+### 7.5 Worker线程的阻塞-唤醒机制
+
+### 7.6 任务的提交过程分析
+
+#### 7.6.1 内部提交任务 pushTask
+
+#### 7.6.2 外部提交任务 addSubmission
+
+### 7.7 工作窃取算法：任务的执行过程分析
+
+#### 7.7.1 顺序锁 SeqLock
+
+#### 7.7.2 scanGuard解析
+
+### 7.8 ForkJoinTask的fork/join
+
+#### 7.8.1 fork
+
+#### 7.8.2 join的层层嵌套
+
+### 7.9 ForkJoinPool的优雅关闭
+
+#### 7.9.1 关键的terminate变量
+
+#### 7.9.2 shutdown()与shutdownNow()
+
+## 8 CompletableFuture
+
+### 8.1 CompletableFuture用法
+
+#### 8.1.1 最简单的用法
+
+#### 8.1.2提交任务：runAsync与supplyAsync
+
+#### 8.1.3 链式的CompletableFuture:thenRun、thenAccept和thenApply
