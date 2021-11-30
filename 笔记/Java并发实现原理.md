@@ -61,6 +61,8 @@
 #### 1.6.4 happen-before是什么
 
 1. 单线程中的每个操作，happen-before对应线程中任意后续操作（也就是 as-if-serial语义保证）。
+2. 对于volatie变量的写入，happen-before对应后续对这个变量的读取。
+3. 对syncchronized的解锁，happen-before对应后续对这锁的加锁。
 
 #### 1.6.5 happen-before的传递性
 
