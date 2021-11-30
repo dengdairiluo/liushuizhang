@@ -365,3 +365,25 @@
 #### 8.1.2提交任务：runAsync与supplyAsync
 
 #### 8.1.3 链式的CompletableFuture:thenRun、thenAccept和thenApply
+
+#### 8.1.4 CompletableFuture的组合：thenCompose与thenCombine
+
+#### 8.1.5 任意个CompletableFuture的组合
+
+### 8.2 四种任务原型
+
+### 8.3 CompletionStage接口
+
+### 8.4 CompletableFuture内部原理
+
+#### 8.4.1 CompletableFuture的构造：ForkJoinPool
+
+#### 8.4.2 任务类型的适配
+
+#### 8.4.3 任务的链式执行过程分析
+
+#### 8.4.4 thenApply与thenApplyAsync的区别
+
+### 8.5 任务的网状执行：有向无环图
+
+### 8.6 allOf内部的计算图分析
