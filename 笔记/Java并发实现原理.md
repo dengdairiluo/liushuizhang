@@ -76,6 +76,13 @@
 
 #### 1.7.2 JDK中的内存屏障
 
+四种内存CPU内存屏障：
+
+1. LoadLoad 禁止读和读重排
+2. SoreStore 禁止写写重排
+3. LoadStore 禁止读写重排
+4. StoreLoad 禁止写读重排
+
 #### 1.7.3 volatile实现原理
 
 ### 1.8 final关键字
