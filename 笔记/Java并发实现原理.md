@@ -199,6 +199,14 @@
 
 #### 3.3.4 await()实现分析
 
+1. 线程调用await()的时候，肯定已经先拿到了锁。所以在addConditionWaiter()内部，对这个双向链表不需要执行CAS操作
+2. 在线程只想wait操作之前，biu先释放锁
+3. 线程从wait中被唤醒后，必须用acquireQueued（node, savedState）函数重新拿锁
+4. checkInterruptWhileWaiti
+5. ng(node)代码在park（this）之后，是为了检测在park期间是否收到过中断信号。
+6. isOnSyncQueue(node)用于判断该Node是否在AQS的同步队列里面。
+7. 
+
 #### 3.3.5 awaitUniterruptibly()实现分析
 
 #### 3.3.6 notify()实现分析
@@ -396,4 +404,3 @@
 ### 8.5 任务的网状执行：有向无环图
 
 ### 8.6 allOf内部的计算图分析
-
