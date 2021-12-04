@@ -205,7 +205,6 @@
 4. checkInterruptWhileWaiti
 5. ng(node)代码在park（this）之后，是为了检测在park期间是否收到过中断信号。
 6. isOnSyncQueue(node)用于判断该Node是否在AQS的同步队列里面。
-7. 
 
 #### 3.3.5 awaitUniterruptibly()实现分析
 
