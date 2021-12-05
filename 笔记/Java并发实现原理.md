@@ -251,6 +251,9 @@
 #### 4.5.1 用 Phaser替代CyclicBarrier和CountDownLatch
 
 #### 4.5.2 Phaser新特性
+  
+  1. 动态调整线程个数
+  2. 层次Pahser
 
 #### 4.5.3 state变量解析
 
