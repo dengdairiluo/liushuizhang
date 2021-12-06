@@ -396,6 +396,11 @@
 
 ### 8.2 四种任务原型
 
+1. Runnable
+2. Comsumer
+3. Supplier
+4. Function
+
 ### 8.3 CompletionStage接口
 
 ### 8.4 CompletableFuture内部原理
