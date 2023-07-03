@@ -180,6 +180,9 @@ StringBuffer 与 StringBuilder
 
 ##### 3.8.6 中断控制流程语句
 
+break;
+continue;
+
 #### 3.9 大数值
 
 #### 3.10 数组
