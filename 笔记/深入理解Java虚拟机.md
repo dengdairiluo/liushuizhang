@@ -16,21 +16,21 @@
 
 ### 1.4 Java 虚拟机家族
 
-#### 1.4.1 Sun Classic/Exact VM
+#### 1.4.1 虚拟机始祖 Sun Classic/Exact VM
 
-#### 1.4.2 HotSpot VM
+#### 1.4.2 武林盟主 HotSpot VM
 
-#### 1.4.3 Mobile/Embedded VM
+#### 1.4.3 小家碧玉 Mobile/Embedded VM
 
-#### 1.4.4 BEA JRockit/IBM J9 VM
+#### 1.4.4 天下第二 BEA JRockit/IBM J9 VM
 
-#### 1.4.5 BEA Liquid VM/Azul VM
+#### 1.4.5 软硬合璧 BEA Liquid VM/Azul VM
 
-#### 1.4.6 Apache Harmony/Google Android Daivik VM
+#### 1.4.6 挑战者 Apache Harmony/Google Android Daivik VM
 
-#### 1.4.7 Microsoft JVM
+#### 1.4.7 没有成功，但并非失败 Microsoft JVM
 
-#### 1.4.8 其他
+#### 1.4.8 百家争鸣
 
 ### 1.5 展望Java技术的未来
 
