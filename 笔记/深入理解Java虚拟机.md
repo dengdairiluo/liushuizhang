@@ -482,12 +482,22 @@ CMS 收集器是一种以最短回收停顿时间为目标的收集器。目前�
 
 #### 6.3.6 方法表集合
 
+#### 6.3.7 属性表集合
+
 1. Code属性
 2. Exceptions属性
 3. LineNumberTable属性
 4. LocalVaribleTable及LocalVaribleTypeTable属性
-
-#### 6.3.7 属性表集合
+5. SourceFile属性及SourceDebugExtension属性
+6. ConstantValue属性
+7. InnerClasses属性
+8. Deprecated及Synthetic属性
+9. StackMapTable属性
+10. Signature属性
+11. BootstrapMethods属性
+12. MethodParameters属性
+13. 模块化相关属性
+14. 运行时注解相关属性
 
 ### 6.4 字节码指令简介
 
@@ -513,7 +523,7 @@ CMS 收集器是一种以最短回收停顿时间为目标的收集器。目前�
 
 ### 6.5 公有设计，私有实现
 
-### 6.6 Class 文件结构的发展
+### 6.6 Class文件结构的发展
 
 ### 6.7 本章小结
 
@@ -530,6 +540,7 @@ CMS 收集器是一种以最短回收停顿时间为目标的收集器。目前�
 5. 初始化
 6. 使用
 7. 卸载
+
 
 ### 7.3 类加载的过程
 
