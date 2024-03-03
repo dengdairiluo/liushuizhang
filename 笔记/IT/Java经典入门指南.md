@@ -179,3 +179,39 @@
 ### 4.22 小结
 
 ## 5 核心类
+
+### 5.1 java.lang.Object
+
+### 5.2 java.lang.String
+
+#### 5.2.1 比较两个String对象
+
+#### 5.2.2 字符串面值
+
+#### 5.2.3 字符转义
+
+#### 5.2.4 switch中的String
+
+#### 5.2.5 String类的构造方法
+
+#### 5.2.6 String类的方法
+
+### 5.3 java.lang.StringBuffer和java.lang.StringBuilder
+
+#### 5.3.1 StringBuilder类的构造方法
+
+#### 5.3.2 StringBuilder类的方法
+ 
+### 5.4 基本类型包装类
+
+#### 5.4.1 java.lang.Integer
+
+#### 5.4.2 java.lang.Boolean
+
+#### 5.4.3 java.lang.Character
+
+### 5.5 java.lang.Class
+
+### 5.6 java.lang.System
+
+### 5.7 java.util.Scanner
