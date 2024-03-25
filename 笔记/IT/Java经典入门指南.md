@@ -703,3 +703,19 @@
 #### 26.2.1 HTTP请求
 
 #### 26.2.2 HTTP响应
+
+### 26.3 HttpClient API
+
+### 26.4 java.net.Socket
+
+### 26.5 java.net.ServerSocket
+
+### 26.6 创建一个Web服务器
+
+#### 26.6.1 HttpServer类
+
+#### 26.6.2 Request类
+
+#### 26.6.3 Response类
+
+#### 26.6.4 运行应用程序
