@@ -719,3 +719,55 @@
 #### 26.6.3 Response类
 
 #### 26.6.4 运行应用程序
+
+### 26.7 小结
+
+## 27 安全
+
+### 27.1 Java安全概述
+
+### 27.2 使用安全管理器
+
+### 27.3 策略文件
+
+#### 27.3.1 Keystore
+
+#### 27.3.2 grant
+
+### 27.4 权限
+
+#### 27.4.1 java.io.FilePermission
+
+#### 27.4.2 java.security.BasicPermission
+
+#### 27.4.3 java.util.PropertyPermission
+
+#### 27.4.4 java.net.SocketPermission
+
+#### 27.4.5 java.security.UnresolvedPermission
+
+#### 27.4.6 java.security.RumtimePermission
+
+#### 27.4.7 java.net.NewPermission
+
+#### 27.4.8 java.lang.reflect.ReflectPermission
+
+#### 27.4.9 java.io.SerializablePermission
+
+#### 27.4.10 java.security.SecurityPermission
+
+#### 27.4.11 java.security.AllPermission
+
+#### 27.4.12 java.security.auth.AuthPermission
+
+### 27.5 安全编程
+
+### 27.6 加密概述
+
+#### 27.6.1 加密/解密
+
+#### 27.6.2 身份验证
+
+#### 27.6.3 数据完整性
+
+#### 27.6.4 SSL的工作原理
