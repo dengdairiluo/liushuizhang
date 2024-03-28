@@ -817,3 +817,23 @@
 ### 28.5 ServletRequest
 
 ### 28.6 ServletResponse
+
+### 28.7 ServletConfig
+
+### 28.8 ServletContext
+
+### 28.9 GenericServlet
+
+### 28.10 HTTP Servlet
+
+#### 28.10.1 HttpServlet
+
+#### 28.10.2 HttpServletRequest
+
+#### 28.10.3 HttpServletResponse
+
+#### 28.10.4 编写一个HTTP Servlet
+
+### 28.11 使用部署描述符
+
+### 28.12 小结
