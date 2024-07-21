@@ -21,3 +21,9 @@
 ### 2.4 小试牛刀：Spark shell和SparkContext
 
 ### 2.5 把数据从集群上获取到客户端
+
+### 2.6 把代码从客户端发送到集群
+
+### 2.7 从RDD到DataFrame
+
+### 2.8 用DataFrame API来分析数据
