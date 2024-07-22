@@ -27,3 +27,19 @@
 ### 2.7 从RDD到DataFrame
 
 ### 2.8 用DataFrame API来分析数据
+
+### 2.9 DataFrame的统计信息
+
+### 2.10 DataFrame的转置和重塑
+
+### 2.11 DataFrame的连接和特征选择
+
+### 2.12 为生产环境准备模型
+
+### 2.13 评估模型
+
+### 2.14 小结
+
+## 3 音乐推荐和Audioscrobbler数据集
+
+### 3.1 数据集
