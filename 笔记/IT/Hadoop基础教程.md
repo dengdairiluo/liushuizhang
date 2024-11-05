@@ -35,3 +35,19 @@
 ### 2.12 使用弹性MapReduce
 
 ### 2.13 实践环节:使用管理控制台在EMR运行
+
+### 2.14 本地Hadoop与EMR Hadoop的对比
+
+### 2.15 小结
+
+## 3 理解MapReduce
+
+### 3.1 键值对
+
+### 3.2 MapReduce的Hadoop Java API
+
+### 3.3 编写MapReduce程序
+
+### 3.4 实践环节:设置classpath
+
+### 3.5 实践环节:实现WordCount
