@@ -51,3 +51,19 @@
 ### 3.4 实践环节:设置classpath
 
 ### 3.5 实践环节:实现WordCount
+
+### 3.6 实践环节:构建JAR文件
+
+### 3.7 实践环节:在本地Hadoop集群运行WordCount
+
+### 3.8 实践环节:在EMR上运行WordCount
+
+### 3.9 实践环节:WordCount的简易运算
+
+### 3.10 查看WordCount的运行全貌
+
+### 3.11 实践环节:使用combiner编写WordCount
+
+### 3.12 实践环节:更正使用combiner的WordCount
+
+### 3.13 Hadoop专有数据类型
