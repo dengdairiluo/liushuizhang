@@ -67,3 +67,19 @@
 ### 3.12 实践环节:更正使用combiner的WordCount
 
 ### 3.13 Hadoop专有数据类型
+
+### 3.14 实践环节:使用Writeable包装类
+
+### 3.15 输入/输出
+
+### 3.16 小结
+
+## 4 开发MapReduce程序
+
+### 4.1 使用非Java语言操着Hadoop
+
+### 4.2 实践环节:使用Streaming实现WordCount
+
+### 4.3 分析大数据集
+
+### 4.4 实践环节:统计汇总UFO
