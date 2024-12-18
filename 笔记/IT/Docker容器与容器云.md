@@ -81,3 +81,7 @@
 ### 8.4 Kubernetes存储核心原理
 
 ### 8.5 Kubernetes网络核心原理
+
+### 8.6 Kubernetes多租户管理与资源控制
+
+### 8.7 Kubernetes高级实践
