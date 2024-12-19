@@ -85,3 +85,7 @@
 ### 8.6 Kubernetes多租户管理与资源控制
 
 ### 8.7 Kubernetes高级实践
+
+### 8.8 Kubernetes未来方向
+
+### 8.9 不要停止思考
