@@ -11,3 +11,9 @@ git rev-list --objects --all | grep "$(git verify-pack -v .git/objects/pack/*.id
 export ALL_PROXY=http://127.0.0.1:49595
 
 ~~~
+
+## docker
+
+### dify 
+
+docker compose up -d
