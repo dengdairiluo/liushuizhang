@@ -65,3 +65,35 @@
 ### 4.1 GitHub Copilot简介
 
 ### 4.2 使用Copilot
+
+### 4.3 Copilot合作伙伴计划
+
+### 4.4 小结
+
+## 5 其他AI辅助编程工具
+
+### 5.1 CodeWhisperer
+
+### 5.2 Duet AI
+
+### 5.3 Tabnine
+
+### 5.4 Replit
+
+### 5.5 CodeGPT
+
+### 5.6 Cody
+
+### 5.7 CodeWP
+
+### 5.8 Warp
+
+### 5.9 Bito AI
+
+### 5.10 Curosr
+
+### 5.11 Code Llama
+
+### 5.12 其他开源模型
+
+### 5.13 小结
